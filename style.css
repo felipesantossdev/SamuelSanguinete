@@ -33,9 +33,10 @@
   padding: 0 32px;
 }
 
+/*--CABEÇALHO--*/
+
 header {
   background-color: transparent;
-  padding: 28px 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -47,6 +48,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 28px 0;
 }
 
 .logo {
@@ -119,3 +121,53 @@ header {
   color: var(--preto);
 }
 
+/* ─── SEÇÃO HERO ─── */
+
+#hero-section {
+  background-color: var(--preto);
+}
+
+.hero-conteudo {
+  min-height: 100vh;
+  height: 100%;
+  color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  padding: 100px 0px;
+}
+
+.span-hero {
+  font-size: 12px;
+  font-family: var(--sans);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--cinza-claro);
+  margin-bottom: 22px;
+}
+
+.titulo {
+  font-weight: normal;
+  font-family: var(--serif);
+  text-transform: capitalize;
+  color: var(--branco-fraco);
+  letter-spacing: 1px;
+  line-height: 1.1;
+  font-size: 90px;
+  max-width: 70%;
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+.titulo span {
+  color: var(--cinza-claro);
+  font-style: italic;
+}
+
+.texto-hero {
+  font-family: var(--sans);
+  color: var(--cinza-claro);
+  max-width: 500px;
+  line-height: 1.7;
+}
