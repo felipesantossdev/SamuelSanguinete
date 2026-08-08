@@ -10,7 +10,7 @@
 :root {
   /* ─── CORES ─── */
   --preto:         #0b0b0c;  /* fundo principal do body, hero, header */
-  --cinza-escuro:  #17171a;  /* fundo de seções alternadas (destaque, contato) */
+  --cinza-escuro:  #0e0e0f;  /* fundo de seções alternadas (destaque, contato) */
   --cinza-medio:   #1f1f22;  /* variação de fundo, disponível pra uso futuro */
   --cinza-linha:   #2b2b2e;  /* bordas finas, divisórias entre seções e cards */
   --cinza-claro:   #9a9a9e;  /* texto secundário, emphasis em itálico (hero, logo) */
@@ -48,7 +48,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 28px 0;
+  padding: 28px;
 }
 
 .logo {
@@ -125,6 +125,9 @@ header {
 
 #hero-section {
   background-color: var(--preto);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imagens/img-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-conteudo {
@@ -135,7 +138,8 @@ header {
   flex-direction: column;
   justify-content: end;
   align-items: start;
-  padding: 100px 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .span-hero {
@@ -215,5 +219,58 @@ header {
     font-size: 14px;
     max-width: 100%;
   }
+}
+
+/* ─── SEÇÃO SOBRE ─── */
+
+.sobre-section {
+  background-color: var(--cinza-escuro);
+  padding: 120px 0px;
+  color: var(--branco);
+  border-bottom: 1px solid var(--cinza-linha);
+}
+
+.sobre-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.sobre-esquerdo span {
+  font-family: var(--sans);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  color: var(--cinza-claro);
+
+}
+
+.nome-sobre {
+  font-weight: normal;
+  font-size: 32px;
+  margin-top: 22px;
+  font-family: var(--serif);
+  text-transform: capitalize;
+  color: var(--branco);
+  letter-spacing: 1px;
+}
+
+.titulo-sobre {
+  font-weight: normal;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: var(--branco-fraco);
+  margin-bottom: 30px;
+}
+
+.sobre-direito p {
+  font-family: var(--sans);
+  letter-spacing: 1px;
+  color: var(--cinza-claro);
+  line-height: 1.7;
+  margin-bottom: 22px;
 }
   
