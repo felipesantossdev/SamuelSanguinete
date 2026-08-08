@@ -273,6 +273,28 @@ header {
     font-size: 14px;
     max-width: 100%;
   }
+
+  /*SOBRE MOBILE*/
+  .sobre-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sobre-esquerdo span {
+    font-size: 10px;
+  }
+
+  .nome-sobre {
+    font-size: 24px;
+    margin-bottom: 28px;
+  }
+
+  .titulo-sobre {
+    font-size: 18px;
+  }
+
+  .sobre-direito p {
+    font-size: 14px;
+  }
 }
 
 
