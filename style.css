@@ -171,3 +171,49 @@ header {
   max-width: 500px;
   line-height: 1.7;
 }
+
+@media (max-width: 768px) {
+
+  /*CABEÇALHO MOBILE*/
+  .navbar {
+    padding: 24px;
+  }
+
+  .logo {
+    font-size: 14px;
+  }
+
+  .lista-nav {
+    display: none;
+  }
+
+  .lista-nav li a {
+    font-size: 12px;
+  }
+
+  .btn-nav {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+  
+  /*HERO MOBILE*/
+
+  .hero-conteudo {
+    padding: 0px 24px;
+    justify-content: center;
+  }
+  .span-hero {
+    font-size: 10px;
+  }
+
+  .titulo {
+    font-size: 40px;
+    max-width: 100%;
+  }
+
+  .texto-hero {
+    font-size: 14px;
+    max-width: 100%;
+  }
+}
+  
