@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root {
+  /* ─── CORES ─── */
+  --preto:         #0b0b0c;  /* fundo principal do body, hero, header */
+  --cinza-escuro:  #17171a;  /* fundo de seções alternadas (destaque, contato) */
+  --cinza-medio:   #1f1f22;  /* variação de fundo, disponível pra uso futuro */
+  --cinza-linha:   #2b2b2e;  /* bordas finas, divisórias entre seções e cards */
+  --cinza-claro:   #9a9a9e;  /* texto secundário, emphasis em itálico (hero, logo) */
+  --cinza-claro-2: #6e6e72;  /* texto mais discreto: eyebrows, legendas, labels */
+  --branco:        #eeeeec;  /* texto principal, títulos, texto de maior destaque */
+  --branco-fraco:  #cfcfcd;  /* parágrafos de corpo, texto secundário mais legível */
+
+  /* ─── TIPOGRAFIA ─── */
+  --serif: 'Cormorant Garamond', Georgia, serif;  /* títulos, citações, destaques editoriais */
+  --sans:  'Inter', sans-serif;                    /* corpo de texto, navegação, formulário */
+
+  /* ─── ANIMAÇÃO ─── */
+  --transicao: 0.5s cubic-bezier(0.16, 1, 0.3, 1);  /* hovers e transições suaves em toda a página */
+}
+
+.container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+header {
+  background-color: transparent;
+  padding: 28px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-transform: capitalize;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: var(--branco);
+}
+
+.logo-span {
+  color: var(--cinza-claro);
+  font-style: italic;
+}
+
+.lista-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.lista-nav li {
+  list-style: none;
+}
+
+.lista-nav li a {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: var(--sans);
+  text-decoration: none;
+  color: var(--cinza-claro);
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.lista-nav li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--branco);
+  transition: var(--transicao);
+}
+
+.lista-nav li a:hover::after {
+  width: 100%;
+}
+
+.btn-nav {
+  padding: 12px 20px;
+  border: 1px solid var(--cinza-linha);
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-family: var(--sans);
+  text-decoration: none;
+  color: var(--branco);
+  text-transform: uppercase;
+  transition: var(--transicao);
+  border-radius: 4px;
+}
+
+.btn-nav:hover {
+  background-color: var(--branco-fraco);
+  color: var(--preto);
+}
+
