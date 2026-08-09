@@ -239,9 +239,6 @@ header {
   padding: 80px;
 }
 
-.destaque-esquerdo {
-   margin: 80px 0px;
-}
 
 .destaque-grid {
   display: grid;
@@ -259,7 +256,8 @@ header {
 
 .img-destaque {
   margin-top: 26px;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   transition: 1.1s cubic-bezier(0.20, 1, 0.3, 1);
 }
 
@@ -350,7 +348,7 @@ header {
 
 @media (max-width: 768px) {
 
-  /*CABEÇALHO MOBILE*/
+  /*---CABEÇALHO MOBILE---*/
   .navbar {
     padding: 24px;
   }
@@ -372,7 +370,7 @@ header {
     font-size: 12px;
   }
   
-  /*HERO MOBILE*/
+  /*---HERO MOBILE---*/
 
   .hero-conteudo {
     padding: 0px 24px;
@@ -392,7 +390,12 @@ header {
     max-width: 100%;
   }
 
-  /*SOBRE MOBILE*/
+  /*---SOBRE MOBILE---*/
+
+  .sobre-section {
+   padding: 80px 0px;
+  }
+
   .sobre-grid {
     grid-template-columns: 1fr;
   }
@@ -413,6 +416,58 @@ header {
   .sobre-direito p {
     font-size: 14px;
   }
+
+  /*-----DESTAQUE MOBILE----*/
+
+  .destaque-section {
+    padding: 60px 0px;
+  }
+
+
+  .destaque-direito {
+    margin: 0;
+  }
+
+  .destaque-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .img-destaque {
+    width: 280px;
+  }
+
+  .legenda-img {
+    font-size: 12px;
+  }
+
+  .destaque-esquerdo span {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .tag-destaque {
+    font-size: 10px;
+  }
+
+  .titulo-destaque {
+    font-size: 24px;
+  }
+
+  .texto-destaque {
+    font-size: 14px;
+  }
+
+  .info-label {
+    font-size: 10px;
+  }
+
+  .info-valor {
+    font-size: 12px;
+  }
+
+
 }
 
 
