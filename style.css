@@ -573,6 +573,33 @@ figure {
     font-size: 12px;
   }
 
+  /*---SEÇÃO PORTFÓLIO---*/
+
+  .portfolio-section {
+    padding: 40px 0px;
+  }
+
+  .portfolio-header span {
+    font-size: 10px;
+  }
+
+  .titulo-portfolio {
+    font-size: 24px;
+  }
+
+  .titulo-portfolio {
+    margin: 22px 0px;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-item img {
+    width: 300px;
+    height: 280px
+  }
+
 
 }
 
