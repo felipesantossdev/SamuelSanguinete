@@ -576,7 +576,7 @@ figure {
   /*---SOBRE MOBILE---*/
 
   .sobre-section {
-   padding: 80px 0px;
+   padding: 60px 0px;
   }
 
   .sobre-grid {
@@ -653,7 +653,7 @@ figure {
   /*---PORTFÓLIO MOBILE---*/
 
   .portfolio-section {
-    padding: 40px 0px;
+    padding: 60px 0px;
   }
 
   .portfolio-header span {
@@ -677,7 +677,28 @@ figure {
     height: 280px
   }
 
+  /*---PROCESSO MOBILE---*/
+  .processo-section {
+    padding: 60px 0px;
+  }
 
+  .processo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .span-processo {
+    font-size: 10px;
+  }
+
+  .titulo-processo {
+    font-size: 24px;
+  }
+
+  .texto-processo h3{
+    font-size: 16px;
+  }
+
+  
 }
 
 
