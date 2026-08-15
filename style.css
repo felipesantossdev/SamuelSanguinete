@@ -453,6 +453,7 @@ figure {
   min-height: 90vh;
   background-color: var(--preto);
   padding: 120px 0px;
+  border-bottom: 1px solid var(--cinza-linha);
 }
 
 .processo-grid {
@@ -461,7 +462,7 @@ figure {
   gap: 60px;
 }
 
-.span-processo {
+.tag-processo {
   font-family: var(--sans);
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -527,6 +528,85 @@ figure {
   line-height: 1.4;
   letter-spacing: 0.5px;
 }
+
+/*--SEÇÃO DUVIDAS---*/
+
+.duvidas-section {
+  min-height: 80vh;
+  padding: 120px 0px;
+  background-color: var(--preto); 
+}
+
+.duvidas-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.div-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.tag-duvidas {
+  font-family: var(--sans);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  color: var(--cinza-claro);
+}
+
+.titulo-duvidas {
+  font-weight: normal;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 36px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: var(--branco);
+}
+
+.faq-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.faq-item {
+  padding-bottom: 26px;
+  border-bottom: 1px solid var(--cinza-linha);
+}
+
+.duvida {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: normal;
+  font-family: var(--sans);
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--branco-fraco);
+}
+
+.duvida::after {
+  content: '+';
+  font-family: var(--serif);
+  font-weight: normal;
+  color: var(--cinza-claro);
+  font-size: 20px;
+}
+
+.resposta {
+  margin-top: 16px;
+  font-family: var(--sans);
+  color: var(--cinza-claro);
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
 
 
 @media (max-width: 768px) {
@@ -697,7 +777,6 @@ figure {
   .texto-processo h3{
     font-size: 16px;
   }
-
   
 }
 
