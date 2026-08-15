@@ -215,6 +215,80 @@
           </div>
         </div>
        </section>
+       <!-- SEÇÃO AGENDAMENTO -->
+        <section class="agendamento-section" id="orçamento">
+          <div class="ag-grid container">
+
+            <div class="ag-header">
+              <span class="tag-ag">agendamento</span>
+              <h2>Vamos projetar sua peça</h2>
+              <p>Preencha o formulário com o máximo de detalhes. O retorno é feito por WhatsApp com uma estimativa inicial.</p>
+            </div>
+
+            <form class="ag-form">
+              <!-- NOME/WHATSAPP -->
+              <div class="ag-row">
+                <!-- CAMPO DO NOME -->
+                <div class="ag-linha">
+                  <label for="ag-nome">nome completo</label>
+                  <input required id="ag-nome" type="text" placeholder="Seu nome">
+                </div>
+                <!-- CAMPO DO WHATSAPP -->
+                <div class="ag-linha">
+                  <label for="ag-num">whatsapp</label>
+                  <input required id="ag-num" type="tel" placeholder="(38)9 9999-9999">
+                </div>
+              </div>
+              <!-- LOCAL/TAMANHO -->
+              <div class="ag-row">
+                <!-- CAMPO LOCAL -->
+                <div class="ag-linha">
+                  <label for="ag-local">local do corpo</label>
+                  <input required id="ag-local" type="text" placeholder="Ex: antebraço, costas, coxa">
+                </div>
+                <!-- CAMPO TAMANHO -->
+                <div class="ag-linha">
+                  <label for="ag-tamanho">tamanho aproximado</label>
+                  <input required id="ag-tamanho" type="text" placeholder="Ex: 20x30cm">
+                </div>
+              </div>
+              <!-- ESTILO -->
+              <div class="ag-campo">
+                <label for="ag-estilo">estilo desejado</label>
+                <select required id="ag-estilo">
+                  <option value>Selecionar...</option>
+                  <option>Retrato realista</option>
+                  <option>Realismo animal</option>
+                  <option>Composição simbólica</option>
+                  <option>Outro/não sei definir</option>
+                </select>
+              </div>
+              <!-- IDEIA -->
+              <div class="ag-campo">
+                <label for="ag-ideia">descreve sua ideia</label>
+                <textarea required id="ag-ideia" placeholder="Conte um pouco sobre a ideia, referências e oque você imagina da peça."></textarea>
+              </div>
+              <!-- CIDADE -->
+               <div class="ag-campo">
+                <label for="ag-cidade">cidade (opcional)</label>
+                <input required id="ag-cidade" type="text" placeholder="Ex: Pirapora-MG">
+               </div>
+              <!-- IMAGEM REFERENCIA -->
+              <label for="ag-imagem">
+                <input required id="ag-imagem" type="file">
+                <span class="span-file">Anexar imagens de referência</span>
+                <span class="span-file2">opcional - PNG ou JPG</span>
+              </label>
+              <!-- BUTÕES -->
+              <div class="buttons">
+                <button class="btn-primary">solicitar orçamento</button>
+                <button class="btn-second"><a href="https://wa.me/5538999999999">iniciar pelo whatsapp</a></button>
+              </div>
+
+            </form>
+
+          </div>
+        </section>
     </main>
   </body>
 </html>
