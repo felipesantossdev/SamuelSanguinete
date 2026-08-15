@@ -656,7 +656,7 @@ figure {
   /*---SOBRE MOBILE---*/
 
   .sobre-section {
-   padding: 60px 0px;
+   padding: 80px 0px;
   }
 
   .sobre-grid {
@@ -683,7 +683,7 @@ figure {
   /*-----DESTAQUE MOBILE----*/
 
   .destaque-section {
-    padding: 60px 0px;
+    padding: 80px 0px;
   }
 
 
@@ -733,7 +733,7 @@ figure {
   /*---PORTFÓLIO MOBILE---*/
 
   .portfolio-section {
-    padding: 60px 0px;
+    padding: 80px 0px;
   }
 
   .portfolio-header span {
@@ -742,11 +742,9 @@ figure {
 
   .titulo-portfolio {
     font-size: 24px;
+    margin: 22px 0px 38px 0px;
   }
 
-  .titulo-portfolio {
-    margin: 22px 0px;
-  }
 
   .portfolio-grid {
     grid-template-columns: 1fr;
@@ -759,7 +757,7 @@ figure {
 
   /*---PROCESSO MOBILE---*/
   .processo-section {
-    padding: 60px 0px;
+    padding: 80px 0px;
   }
 
   .processo-grid {
@@ -777,6 +775,30 @@ figure {
   .texto-processo h3{
     font-size: 16px;
   }
+
+  /*---DUVIDAS MOBILE---*/
+  .duvidas-section {
+    padding: 80px 0px;
+  }
+
+  .duvidas-grid {
+    grid-template-columns: 1fr;
+
+  }
+
+  .tag-duvidas {
+    font-size: 10px;
+  }
+
+  .titulo-duvidas {
+    font-size: 24px;
+  }
+
+  .duvida {
+    font-size: 16px;
+  }
+
+
   
 }
 
