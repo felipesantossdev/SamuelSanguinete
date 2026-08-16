@@ -659,7 +659,7 @@ figure {
   display: flex;
   flex-direction: column;
   gap: 28px;
-  width: 70%;
+  max-width: 70%;
 }
 
 .ag-row {
@@ -1033,7 +1033,80 @@ figure {
     font-size: 16px;
   }
 
+  /*--AGENDAMENTO MOBILE--*/
 
+  .ag-section {
+    padding: 80px 0px ;
+  }
+
+  .ag-form {
+    max-width: 100%;
+  }
+
+  .tag-ag {
+    font-size: 10px;
+  }
+
+  .ag-header h2{
+    font-size: 32px;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 22px;
+  }
+
+  .ag-header p{
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .ag-row {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+  .ag-campo label {
+    font-size: 10px;
+  }
+
+  .ag-campo select {
+    font-size: 14px;
+  }
+
+  #ag-estilo option {
+    font-size: 14px;
+  }
+
+  .ag-linha label {
+    font-size: 10px;
+  }
+
+  ::placeholder {
+    font-size: 14px;
+  }
+
+  .anexo {
+    padding: 16px;
+    text-align: center;
+  }
+
+  .span-file {
+    font-size: 12px;
+  }
+
+  .buttons {
+    width: fit-content;
+    flex-direction: column;
+  }
+
+  .btn-primary {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .btn-second {
+    font-size: 12px;
+    padding: 10px 40px;
+  }
   
 }
 
