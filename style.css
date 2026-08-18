@@ -850,7 +850,8 @@ footer {
 }
 
 .footer-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
 
 }
@@ -921,14 +922,6 @@ footer {
   font-size: 12px;
   letter-spacing: 0.5px;
 }
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 768px) {
@@ -1194,7 +1187,42 @@ footer {
     font-size: 12px;
     padding: 10px 40px;
   }
+
+  /*---FOOTER MOBILE---*/
+
+  footer {
+    padding: 60px 0px 40px 0px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .item-footer span {
+    font-size: 14px;
+  }
+
+  .item-footer {
+    margin-bottom: 30px;
+  }
+
+  .text-lista {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
   
+  .lista-footer li a {
+    font-size: 13px;
+  }
+
+  .footer-bottom {
+    margin-top: 0;
+  }
+
+  .footer-bottom p {
+    font-size: 11px;
+    width: fit-content;
+  }
 }
 
 
