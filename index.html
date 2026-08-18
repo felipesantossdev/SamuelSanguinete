@@ -134,7 +134,6 @@
       <!-- SEÇÃO PROCESSO -->
       <section class="processo-section">
         <div class="processo-grid container">
-
           <div class="side-esquerdo">
             <span class="tag-processo">como funciona</span>
             <h2 class="titulo-processo">do esboço à pele</h2>
@@ -142,50 +141,48 @@
 
           <ol class="side-direito">
             <!-- PROCESSO 1 -->
-              <li class="item-processo">
-                <span class="num-item">01</span>
-                <div class="texto-processo">
-                  <h3>consulta</h3>
-                  <p>Conversa sobre a ideia, referências e exepectativas antes de qualquer traço.</p>
-                </div>
-              </li>
-              <!-- PROCESSO 2 -->
-              <li class="item-processo">
-                <span class="num-item">02</span>
-                <div class="texto-processo">
-                  <h3>esboço</h3>
-                  <p>Desenho autoral desenvolvido e aprovado com você antes da sessão.</p>
-                </div>
-              </li>
-              <!-- PROCESSO 3 -->
-              <li class="item-processo">
-                <span class="num-item">03</span>
-                <div class="texto-processo">
-                  <h3>sessão</h3>
-                  <p>Execução com o tempo necessário, respeitando o ritmo de cada projeto.</p>
-                </div>
-              </li>
-              <!-- PROCESSO 4 -->
-              <li class="item-processo">
-                <span class="num-item">04</span>
-                <div class="texto-processo">
-                  <h3>acabamento</h3>
-                  <p>Orientações completas de cuidado pós-tatuagem para a melhor cicatrização.</p>
-                </div>
-              </li>
+            <li class="item-processo">
+              <span class="num-item">01</span>
+              <div class="texto-processo">
+                <h3>consulta</h3>
+                <p>Conversa sobre a ideia, referências e exepectativas antes de qualquer traço.</p>
+              </div>
+            </li>
+            <!-- PROCESSO 2 -->
+            <li class="item-processo">
+              <span class="num-item">02</span>
+              <div class="texto-processo">
+                <h3>esboço</h3>
+                <p>Desenho autoral desenvolvido e aprovado com você antes da sessão.</p>
+              </div>
+            </li>
+            <!-- PROCESSO 3 -->
+            <li class="item-processo">
+              <span class="num-item">03</span>
+              <div class="texto-processo">
+                <h3>sessão</h3>
+                <p>Execução com o tempo necessário, respeitando o ritmo de cada projeto.</p>
+              </div>
+            </li>
+            <!-- PROCESSO 4 -->
+            <li class="item-processo">
+              <span class="num-item">04</span>
+              <div class="texto-processo">
+                <h3>acabamento</h3>
+                <p>Orientações completas de cuidado pós-tatuagem para a melhor cicatrização.</p>
+              </div>
+            </li>
           </ol>
-
         </div>
       </section>
       <!-- SEÇÃO DUVIDAS -->
-       <section class="duvidas-section" id="duvidas">
+      <section class="duvidas-section" id="duvidas">
         <div class="duvidas-grid container">
-        
           <div class="div-texto">
             <span class="tag-duvidas">dúvidas frequentes</span>
             <h2 class="titulo-duvidas">Antes de agendar</h2>
           </div>
-          
+
           <div class="faq-lista">
             <!-- DUVIDA 1 -->
             <details class="faq-item">
@@ -214,90 +211,88 @@
             </details>
           </div>
         </div>
-       </section>
-       <!-- SEÇÃO AGENDAMENTO -->
-        <section class="ag-section" id="orcamento">
-          <div class="ag-grid container">
-
-            <div class="ag-header">
-              <span class="tag-ag">agendamento</span>
-              <h2>Vamos projetar sua peça</h2>
-              <p>Preencha o formulário com o máximo de detalhes. O retorno é feito por WhatsApp com uma estimativa inicial.</p>
-            </div>
-
-            <form class="ag-form">
-              <!-- NOME/WHATSAPP -->
-              <div class="ag-row">
-                <!-- CAMPO DO NOME -->
-                <div class="ag-linha">
-                  <label for="ag-nome">nome completo</label>
-                  <input required id="ag-nome" type="text" placeholder="Seu nome">
-                </div>
-                <!-- CAMPO DO WHATSAPP -->
-                <div class="ag-linha">
-                  <label for="ag-num">whatsapp</label>
-                  <input required id="ag-num" type="tel" placeholder="(38) 9 9999-9999">
-                </div>
-              </div>
-              <!-- LOCAL/TAMANHO -->
-              <div class="ag-row">
-                <!-- CAMPO LOCAL -->
-                <div class="ag-linha">
-                  <label for="ag-local">local do corpo</label>
-                  <input required id="ag-local" type="text" placeholder="Ex: antebraço, costas, coxa">
-                </div>
-                <!-- CAMPO TAMANHO -->
-                <div class="ag-linha">
-                  <label for="ag-tamanho">tamanho aproximado</label>
-                  <input required id="ag-tamanho" type="text" placeholder="Ex: 20x30cm">
-                </div>
-              </div>
-              <!-- ESTILO -->
-              <div class="ag-campo">
-                <label for="ag-estilo">estilo desejado</label>
-                <select required id="ag-estilo">
-                  <option value>Selecionar...</option>
-                  <option>Retrato realista</option>
-                  <option>Realismo animal</option>
-                  <option>Composição simbólica</option>
-                  <option>Outro/não sei definir</option>
-                </select>
-              </div>
-              <!-- IDEIA -->
-              <div class="ag-campo">
-                <label for="ag-ideia">descreve sua ideia</label>
-                <textarea required id="ag-ideia" placeholder="Conte um pouco sobre a ideia, referências e oque você imagina da peça."></textarea>
-              </div>
-              <!-- CIDADE -->
-               <div class="ag-campo">
-                <label for="ag-cidade">cidade (opcional)</label>
-                <input required id="ag-cidade" type="text" placeholder="Ex: Pirapora-MG">
-               </div>
-              <!-- IMAGEM REFERENCIA -->
-              <label class="anexo" for="ag-imagem">
-                <input required id="ag-imagem" type="file">
-                <span class="span-file">📎Anexar imagens de referência</span>
-                <span class="span-file2">opcional - PNG ou JPG</span>
-              </label>
-              <!-- BUTÕES -->
-              <div class="buttons">
-                <button class="btn-primary">solicitar orçamento</button>
-                <a class="btn-second" href="https://wa.me/5538999999999">iniciar pelo whatsapp</a>
-              </div>
-
-            </form>
-
+      </section>
+      <!-- SEÇÃO AGENDAMENTO -->
+      <section class="ag-section" id="orcamento">
+        <div class="ag-grid container">
+          <div class="ag-header">
+            <span class="tag-ag">agendamento</span>
+            <h2>Vamos projetar sua peça</h2>
+            <p>Preencha o formulário com o máximo de detalhes. O retorno é feito por WhatsApp com uma estimativa inicial.</p>
           </div>
-        </section>
-        <!-- SEÇÃO RODAPÉ -->
-        <footer>
-          <div class="footer-grid container">
 
+          <form class="ag-form">
+            <!-- NOME/WHATSAPP -->
+            <div class="ag-row">
+              <!-- CAMPO DO NOME -->
+              <div class="ag-linha">
+                <label for="ag-nome">nome completo</label>
+                <input required id="ag-nome" type="text" placeholder="Seu nome" />
+              </div>
+              <!-- CAMPO DO WHATSAPP -->
+              <div class="ag-linha">
+                <label for="ag-num">whatsapp</label>
+                <input required id="ag-num" type="tel" placeholder="(38) 9 9999-9999" />
+              </div>
+            </div>
+            <!-- LOCAL/TAMANHO -->
+            <div class="ag-row">
+              <!-- CAMPO LOCAL -->
+              <div class="ag-linha">
+                <label for="ag-local">local do corpo</label>
+                <input required id="ag-local" type="text" placeholder="Ex: antebraço, costas, coxa" />
+              </div>
+              <!-- CAMPO TAMANHO -->
+              <div class="ag-linha">
+                <label for="ag-tamanho">tamanho aproximado</label>
+                <input required id="ag-tamanho" type="text" placeholder="Ex: 20x30cm" />
+              </div>
+            </div>
+            <!-- ESTILO -->
+            <div class="ag-campo">
+              <label for="ag-estilo">estilo desejado</label>
+              <select required id="ag-estilo">
+                <option value>Selecionar...</option>
+                <option>Retrato realista</option>
+                <option>Realismo animal</option>
+                <option>Composição simbólica</option>
+                <option>Outro/não sei definir</option>
+              </select>
+            </div>
+            <!-- IDEIA -->
+            <div class="ag-campo">
+              <label for="ag-ideia">descreve sua ideia</label>
+              <textarea required id="ag-ideia" placeholder="Conte um pouco sobre a ideia, referências e oque você imagina da peça."></textarea>
+            </div>
+            <!-- CIDADE -->
+            <div class="ag-campo">
+              <label for="ag-cidade">cidade (opcional)</label>
+              <input required id="ag-cidade" type="text" placeholder="Ex: Pirapora-MG" />
+            </div>
+            <!-- IMAGEM REFERENCIA -->
+            <label class="anexo" for="ag-imagem">
+              <input required id="ag-imagem" type="file" />
+              <span class="span-file">📎Anexar imagens de referência</span>
+              <span class="span-file2">opcional - PNG ou JPG</span>
+            </label>
+            <!-- BUTÕES -->
+            <div class="buttons">
+              <button class="btn-primary">solicitar orçamento</button>
+              <a class="btn-second" href="https://wa.me/5538999999999">iniciar pelo whatsapp</a>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- SEÇÃO RODAPÉ -->
+      <footer>
+        <div class="container">
+
+          <div class="footer-grid">
             <div class="item-footer">
-              samuel<em>sanguinete</em>
+              <span>samuel<em>Sanguinete</em></span>
             </div>
             <div class="item-footer">
-              <h4 class="text-lista"></h4>
+              <h4 class="text-lista">navegação</h4>
               <ul class="lista-footer">
                 <li><a href="#sobre">sobre</a></li>
                 <li><a href="#portfolio">portfólio</a></li>
@@ -309,18 +304,20 @@
               <h4 class="text-lista">contato</h4>
               <ul class="lista-footer">
                 <li><a href="#">Pirapora, MG</a></li>
-                <li><a href="https://wa.me/5538999999999">(38) 9 9999-9999</a></li>
-                <li><a href="https://www.instagram.com/samuel_sanguinete/">@samuel_sanguinete</a></li>
+                <li><a href="https://wa.me/5538999999999" target="_blank">(38) 9 9999-9999</a></li>
+                <li><a href="https://www.instagram.com/samuel_sanguinete/" target="_blank">samuel_sanguinete</a></li>
               </ul>
             </div>
-
-            <div class="footer-bottom">
-              <p>© 2026 Samuel Sanguinete — Todos os direitos reservados</p>
-              <p>Black & Grey Realism · Pirapora-MG</p>
-            </div>
-
+            
+          </div> 
+        
+          <div class="footer-bottom">
+            <p>© 2026 Samuel Sanguinete — Todos os direitos reservados</p>
+            <p>Black & Grey Realism · Pirapora-MG</p>
           </div>
-        </footer>
+
+        </div>  
+      </footer>
     </main>
   </body>
 </html>
