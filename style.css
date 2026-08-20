@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
@@ -25,6 +26,8 @@
   /* ─── ANIMAÇÃO ─── */
   --transicao: 0.5s cubic-bezier(0.16, 1, 0.3, 1);  /* hovers e transições suaves em toda a página */
 }
+
+
 
 .container {
   max-width: 1180px;
